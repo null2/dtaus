@@ -1,0 +1,10 @@
+typ:LK
+blz:99988811
+konto:123456
+bank:Nord-Ostschwäbische Sandbank
+bankstrasse:ddd
+bankplz:77777
+bankort:Jodlingen
+zweck:Mitgliedsbeitrag 2003
+name:Jodelverein Holladriö 1863 e.V.
+TeXclass:MeinBrief

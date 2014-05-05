@@ -1,0 +1,4 @@
+#Datensaetze fuer 2003 - erstellt 31.01.2003
+#Name:Vorname:MNr:Kto:BLZ:Bank:Beitragshöhe
+Musterfrau:Silke:1:123456789:77733322:Gartenbank Südwest:15,2
+Mustermann:Egon:2:987654321:55544422:Zahlnix-Bank:30:Beitrag 2002 und 2003

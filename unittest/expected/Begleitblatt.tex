@@ -1,0 +1,61 @@
+\documentclass[10pt,german]{scrlttr2}
+%\usepackage{booktabs}%%leider nicht mit longtable
+%\usepackage{graphicx}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{units}
+\usepackage{isodate}
+\usepackage[right,eurosym]{eurofont}
+
+\newlength{\betragsbreite}%%Breite des Endsummen (Fahrten/EP)
+\setlength{\betragsbreite}{15mm}
+
+%\nexthead{\fromname -\thepage-}%scrlettr
+\nexthead{\usekomavar{fromname} -\thepage-}%scrlettr2
+
+\begin{document}
+\begin{letter}{ Nord-Ostschwäbische Sandbank}
+\title{Begleitzettel, Belegloser Datenträgeraustausch Sammeleinziehungsauftrag}
+\opening{~}
+\begin{description}
+\item[Erstellungsdatum:]
+	16.01.2004
+\item[Überweisungsempfänger/Zahlungspflichtigen]
+	Jodelverein Holladriö 1863 e.V.
+\item[Kontonummer des Absenders:]
+	123456
+\item[Bankleitzahl des Absenders:]
+	99988811
+\item[Bank:]
+	Nord-Ostschwäbische Sandbank
+\item[Zweck:]
+	Mitgliedsbeitrag 2003
+\item[Anzahl der Datensätze C (Stückzahl):]
+	2
+\item[Summe Euro der Datensätze C:]
+	   45.20
+\item[Kontrollsumme der Kontonummern:]
+	1111111110
+\item[Kontrollsumme der Bankleitzahlen der Endbegünstigten:]
+	133277744
+\end{description}
+\closing{~}
+\end{letter}
+
+\pagebreak
+\nexthead{}
+\begin{longtable}{p{40mm}llrp{60mm}}
+\multicolumn{5}{c}{\textbf{Buchungsübersicht Sammeleinziehungsauftrag}}\\
+	Name & Konto & BLZ & Betrag & \\\hline\endhead
+\multicolumn{5}{r}{Fortsetzung nächste Seite}\endfoot
+\endlastfoot
+\hyperlink{MNr:1}{Musterfrau Silke}	&	 123456789& 77733322 & \euros{   15.20}&Mitgliedsbeitrag 2003\\
+\hyperlink{MNr:2}{Mustermann Egon}	&	 987654321& 55544422 & \euros{   30.00}&Beitrag 2002 und 2003
+\\
+\hline
+Summe & 	 	1111111110	& 133277744	 & \euros{   45.20}\\
+\end{longtable}
+
+\end{document}

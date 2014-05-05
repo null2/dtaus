@@ -1,0 +1,23 @@
+
+Begleitzettel, Belegloser Datenträgeraustausch: Sammeleinziehungsauftrag
+Erstellungsdatum:
+	14.09.2007
+Überweisungsempfänger/Zahlungspflichtigen
+	Jodelverein Holladriö 1863 e.V.
+Kontonummer des Absenders:
+	123456
+Bankleitzahl des Absenders:
+	99988811
+Bank:
+	Nord-Ostschwäbische Sandbank
+Anzahl der Datensätze C (Stückzahl):
+	2
+Summe Euro-Cent der Datensätze C:
+	4520
+Kontrollsumme der Kontonummern:
+	1111111110
+Kontrollsumme der Bankleitzahlen der Endbegünstigten:
+	133277744
+Ort, Datum 
+
+Firma, Unterschrift
